@@ -31,7 +31,7 @@ void Vehicle::setNumPassengers(int pass)
 {
     numPassengers = pass;
 }
-void Vehicle::setMaxPassenggers(int pass)
+void Vehicle::setMaxPassengers(int pass)
 {
     maxPassengers = pass;
 }
@@ -40,7 +40,4 @@ double Vehicle::getETA(Position destination)
     double dist = Position::calcDistance(position, destination);
     double time = dist / speed;
     return time;
-}
-void Vehicle::travel(Position destination) = 0
-{
 }

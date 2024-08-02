@@ -30,6 +30,6 @@ double Position::calcDistance(Position start, Position end)
 std::ostream &operator<<(std::ostream &strm, Position pos)
 {
     strm << "X: " << std::setprecision(3) << pos.getX()
-         << ", Y; " << pos.getY();
+         << ", Y: " << pos.getY();
     return strm;
 }

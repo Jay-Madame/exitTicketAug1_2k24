@@ -20,7 +20,7 @@ public:
     void setSpeed(double spd);
     void setPosition(Position pos);
     void setNumPassengers(int pass);
-    void setMaxPassenggers(int pass);
+    void setMaxPassengers(int pass);
     double getETA(Position destination);
     virtual void travel(Position destination) = 0;
 };

@@ -4,7 +4,7 @@
 #include <iostream>
 
 void Car::travel(Position destination) {
-    std::cout << "This car drives " 
+    std::cout << "\nThis car drives " 
     << Position::calcDistance(getPosition(), destination)
     << " miles to " 
     << destination
