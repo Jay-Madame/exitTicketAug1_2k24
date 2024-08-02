@@ -1,4 +1,5 @@
 #pragma once
+#include <ostream>
 
 class Position
 {
@@ -13,4 +14,5 @@ public:
     void setX(double x);
     void setY(double y);
     static double calcDistance(Position start, Position end);
+    friend std::ostream &operator<<(std::ostream &strm, Position pos);
 };

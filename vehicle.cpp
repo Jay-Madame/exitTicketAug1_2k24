@@ -41,6 +41,6 @@ double Vehicle::getETA(Position destination)
     double time = dist / speed;
     return time;
 }
-void Vehicle::travel(Position destination) = 0 {
-    
+void Vehicle::travel(Position destination) = 0
+{
 }
